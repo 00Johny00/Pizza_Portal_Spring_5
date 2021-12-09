@@ -1,0 +1,70 @@
+body
+{
+background-color:black;
+color:white;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+font-size:25px;
+
+}
+#container
+{
+width: 600px;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+}
+.link
+{
+color:white;
+font-size:50px;
+text-decoration:none;
+}
+.link:hover
+{
+font-size:50px;
+color:#aaaaaa;
+}
+
+div.ingredient-group:nth-child(odd) {
+	float: left;
+	padding-right: 0;
+}
+
+div.ingredient-group:nth-child(even) {
+    float: left;
+	padding-right: 0;
+}
+
+div.ingredient-group {
+	width: 50%;
+}
+.button
+{
+margin-top:20px;
+width:200px;
+height:40px;
+font-size:20px;
+}
+.checkbox
+{
+width:20px;
+margin-top:5px;
+height:20px;
+}
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+span.validationError {
+	color: red;
+}
